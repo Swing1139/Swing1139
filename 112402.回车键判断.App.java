@@ -14,7 +14,7 @@ public class App {
         textArea_A.setBackground(Color.yellow);
         myPanel.add(textArea_A);
         textArea_B.setBounds(100,300,256,128);
-        textArea_B.setBackground(Color.CYAN);
+        textArea_B.setBackground(Color.red);
         myPanel.add(textArea_B);
 
         textArea_A.addKeyListener(new KeyAdapter() {
