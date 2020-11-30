@@ -1,14 +1,5 @@
-public class App  extends R {
-	public static void main(String[] args) {
-   		 R s=new R();
-    System.out.println(s.boy_filePathString);
-    System.out.println(s.girl_filePathString);
-    
-    for (int row=0;row<s.array2d.length;row++){
-        for (int column=0;column<s.array2d[row].length;column++){
-            System.out.print(s.array2d[row][column]+" ");
-        }
-        System.out.println();
-    }
-}
+public class R {
+	 String boy_filePathString="img/boy.gif";
+     String girl_filePathString="img/girl.gif";
+		int[][]array2d={{1,2,3},{4,5,6}};
 }
